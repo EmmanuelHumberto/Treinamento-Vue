@@ -1,0 +1,25 @@
+<div id="app">
+
+  <!--(one-way bindind) data bind unidirecional que liga as tags HTML aos dados definidos no JavaScript-->
+    <h1>{{ titulo }}</h1>
+
+  <!--(two-way binding)data bind bidirecional usando diretiva v-model-->
+  <!--podemos inserir um input dentro da div app. Ao alterar o conteúdo desse input, o objeto que está ligado a ele será automaticamente atualizado.-->
+    <input class="text" v-model="titulo">
+
+</div>
+
+<!-- Link utilizado para projetos em desenvolvimento-->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script>
+
+  <!--Criando uma instância da classe Vue com sua propriedade el apontando para o id de um elemento da página, o qual representará o container principal da aplicação-->
+
+    var app = new Vue({
+        el: '#app',
+        data : {
+            titulo : 'Testando mecanismo data binding uni e bidirecional'
+        }
+    });
+</script>
