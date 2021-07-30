@@ -1,0 +1,19 @@
+
+.app-titulo{
+    display:flex;
+    color: #181838;
+    font-size: 27px;
+    background-color: #6e9117;
+    border: 1px solid;
+    width: auto ;
+}
+
+.produto-valor:hover {
+    display:inline-grid;
+    border: 10px solid;
+    width: auto ;
+    text-align: center;
+    background: darkorange;
+    transform: scale(1);
+
+}
