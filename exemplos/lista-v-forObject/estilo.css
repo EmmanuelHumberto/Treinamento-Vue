@@ -1,0 +1,22 @@
+#app{
+    background: #6e9117;
+    display: inline-flex;
+}
+h3{
+    background: blueviolet;
+}
+.list-tecno1 {
+    font-size: 25px;
+    background-color: #564747;
+}
+.list-tecno1:hover{
+
+    transform-style: preserve-3d;
+    font-size: 30px;
+    background-color: #6d6f70;
+}
+.list-tecno2 {
+    background-color: #46fd01;
+    font-size: 18px;
+
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/exemplos/lista-v-forObject/estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Tecnologias JavaScript</title>
+</head>
+<body>
+<div id="app">
+    <h3>Tecnologias JavaScript</h3>
+
+    <ul v-for="tecnologia in colecaoTecnologias">
+        <li class="list-tecno1" >
+            {{ tecnologia.nome }}
+        </li>
+
+        <ul v-for="(valor, propriedade) in tecnologia.dados">
+            <li class="list-tecno2" >
+                {{ propriedade }}: {{ valor }}
+            </li>
+        </ul>
+    </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
