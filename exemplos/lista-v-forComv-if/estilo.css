@@ -1,0 +1,32 @@
+#app{
+    background: #6d6f70;
+}
+h3{
+    background: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+table{
+    background-color: #020202;
+    color: white;
+    margin: auto;
+    width: 50% ;
+    border-radius: 8px;
+
+
+}
+
+
+.canditato-nome {
+
+    background-color: #39398a;
+    color: #a9a7a7;
+
+
+}
+.canditato-pontos{
+    background-color: #9a5e5e;
+    text-align: center;
+
+}
